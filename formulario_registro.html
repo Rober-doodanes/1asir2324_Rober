@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_registro.css">
+</head>
+<body>
+    <form action="registrar.php" method="post" class="form-registro" "> <!-- onsubmit="return validar(); SE ACTICA CUANDO QUIERO VALIDAR LOS DATOS-->
+		<h2 class="titulo">Regístrate</h2>
+
+		<div class="contenedor">
+			
+			<input type="text" 	 	id="nombre" 	name="nombre" 	placeholder="Nombre" 		class="input-50"  >
+			<input type="text" 	 	id="apellido" 	name="apellido" placeholder="Apellido" 		class="input-50" >
+			<input type="email"	 	id="correo" 	name="correo" 	placeholder="Correo" 		class="input-100" >
+			<input type="text"	 	id="usuario" 	name="usuario" 	placeholder="Usuario" 		class="input-50" >
+			<input type="text" 	 	id="telefono" 	name="telefono" placeholder="Telefono" 		class="input-50" >
+			<input type="password"  id="clave" 		name="clave" 	placeholder="Contraseña" 	class="input-100" >
+			<input type="submit" 	value="Registrarse" class="btn">
+
+
+			<p class="link">¿Ya tienes cuenta? <a href="inicio_sesion.html">Iniciar sesión</a></p>
+
+		</div>
+
+</body>
+</html>
